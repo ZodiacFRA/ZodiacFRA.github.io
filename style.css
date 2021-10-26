@@ -6,8 +6,8 @@
   font-family: 'Format_1452';
   src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Format_1452.otf') format("opentype");
 }
-* { box-sizing: border-box; }
 
+* { box-sizing: border-box; }
 body {
   font-family: 'Roboto-Light';
   background-color: #181a1b;
@@ -28,13 +28,10 @@ h1 a {
   color: #ffffff;
   text-decoration: none;
 }
-h1 a:hover {
-  color: #ffffaa;
-}
+h1 a:hover { color: #ffffaa; }
 
 h2 {
   border-top: 1px solid white;
-
   font-size: 50px;
   font-family: 'Format_1452';
   color: #ffffff;
@@ -54,33 +51,10 @@ h4 {
   margin: 0px;
 }
 
-p {
-  font-size: 20px;
-}
-
-a {
-  color: #ffffff;
-}
-a:hover {
-  color: #ffffaa;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-.article_text {
-  margin-bottom: 20px;
-  height: 140px;
-  /* FLOAT*/
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -o-sticky;
-  position: -ms-sticky;
-  position: sticky;
-  top: 20px;
-}
+p { font-size: 20px; }
+a { color: #ffffff; }
+a:hover { color: #ffffaa; }
+img { width: 100%; height: auto; }
 
 .contact_icons {
   display: flex;
@@ -153,10 +127,11 @@ header {
             grid-template-columns: 2.5fr 1.5fr 4fr;
         }
         .article_text {
+          /* flex-grow: 2.5; */
           margin-bottom: 20px;
           margin-right: 20px;
-          height: 140px;
-          /* FLOAT*/
+          height: 180px;
+
           position: -webkit-sticky;
           position: -moz-sticky;
           position: -o-sticky;
