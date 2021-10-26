@@ -150,7 +150,7 @@ header {
         .article_container {
             display: grid;
             margin-bottom: 20px;
-            grid-template-columns: 1fr 1fr 1.6fr;
+            grid-template-columns: 2.5fr 1.5fr 4fr;
         }
         .article_text {
           margin-bottom: 20px;
