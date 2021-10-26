@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: 'Format_1452';
-  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Format_1452.woff') format("woff");
+  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Format_1452.otf') format("opentype");
 }
 * { box-sizing: border-box; }
 
