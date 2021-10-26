@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Roboto-Thin';
-  src: url('./fonts/Roboto-Thin.ttf') format("truetype");
+  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Roboto-Thin.ttf') format("truetype");
 }
 @font-face {
   font-family: 'Roboto-Light';
-  src: url('./fonts/Roboto-Light.ttf') format("truetype");
+  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Roboto-Light.ttf') format("truetype");
 }
 @font-face {
   font-family: 'Roboto-Regular';
-  src: url('./fonts/Roboto-Regular.ttf') format("truetype");
+  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Roboto-Regular.ttf') format("truetype");
 }
 @font-face {
   font-family: 'Roboto-Medium';
-  src: url('./fonts/Roboto-Medium.ttf') format("truetype");
+  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Roboto-Medium.ttf') format("truetype");
 }
 @font-face {
   font-family: 'Format_1452';
-  src: url('./fonts/Format_1452.woff') format("truetype");
+  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Format_1452.woff') format("truetype");
 }
 * { box-sizing: border-box; }
 
