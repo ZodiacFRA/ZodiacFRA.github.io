@@ -1,10 +1,17 @@
 @font-face {
   font-family: 'Roboto-Light';
-  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Roboto-Light.ttf') format("truetype");
+  src: url('./fonts/Roboto-Light.ttf') format("truetype");
 }
 @font-face {
   font-family: 'Format_1452';
-  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Format_1452.otf') format("opentype");
+  /* 1st one, but too thick on mobile */
+  src: url('./fonts/Format_1452.otf') format("opentype");
+
+  /* Nice, but strange double L glyph */
+  /* src: url('./fonts/Lineal.otf') format("opentype"); */
+
+  /* Meh, too round */
+  /* src: url('./fonts/Gulax-Regular.otf') format("opentype"); */
 }
 
 * { box-sizing: border-box; }
@@ -30,7 +37,7 @@ h1 a:hover { color: #ffffaa; }
 
 h2 {
   border-top: 1px solid white;
-  font-size: 50px;
+  font-size: 36px;
   font-family: 'Format_1452';
   margin: 0px;
   padding-top: 20px;
