@@ -33,7 +33,8 @@ h1 a:hover {
 }
 
 h2 {
-  border-top: 3px dashed;
+  border-top: 1px solid white;
+
   font-size: 50px;
   font-family: 'Format_1452';
   color: #ffffff;
@@ -112,13 +113,9 @@ img {
 
 /* ----- RESPONSIVE ------- */
 /* Smartphone */
-.article_text {
-  margin-bottom: 20px;
-  margin-right: 20px;
-  position: static;
-}
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 10px 10px;
@@ -126,18 +123,25 @@ header {
   margin: -10px;
   margin-bottom: 10px;
 }
+
 .article_container {
   display: grid;
   margin-bottom: 20px;
+}
+.article_text {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  position: static;
 }
 
 /* Monitor */
 @media only screen and (min-width: 1000px) {
         header{
             display: flex;
-            justify-content: space-between;
+            flex-wrap: wrap;
+            column-gap: 100px;
+            /* justify-content: space-between; */
             align-items: center;
-            /* flex-wrap: nowrap; */
             padding: 10px 10px;
 
             margin: -10px;
@@ -146,7 +150,7 @@ header {
         .article_container {
             display: grid;
             margin-bottom: 20px;
-            grid-template-columns: 1fr 0fr 1.2fr;
+            grid-template-columns: 1fr 1fr 1.6fr;
         }
         .article_text {
           margin-bottom: 20px;
