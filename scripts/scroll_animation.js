@@ -15,11 +15,11 @@ function onScroll() {
 
       container.children[idx].style.top = (100 + tmp).toString() + "px";
 
-      container.children[idx].style.webkitTransform = 'rotate('+ tmp / 7 +'deg)';
-      container.children[idx].style.mozTransform    = 'rotate('+ tmp / 7 +'deg)';
-      container.children[idx].style.msTransform     = 'rotate('+ tmp / 7 +'deg)';
-      container.children[idx].style.oTransform      = 'rotate('+ tmp / 7 +'deg)';
-      container.children[idx].style.transform       = 'rotate('+ tmp / 7 +'deg)';
+      container.children[idx].style.webkitTransform = 'rotate('+ tmp +'deg)';
+      container.children[idx].style.mozTransform    = 'rotate('+ tmp +'deg)';
+      container.children[idx].style.msTransform     = 'rotate('+ tmp +'deg)';
+      container.children[idx].style.oTransform      = 'rotate('+ tmp +'deg)';
+      container.children[idx].style.transform       = 'rotate('+ tmp +'deg)';
     }
 }
 window.addEventListener('scroll', onScroll)
