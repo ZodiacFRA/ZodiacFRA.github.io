@@ -5,10 +5,10 @@ function getScrollPercent() {
     sh = 'scrollHeight';
     return (h[st]||b[st]) / ((h[sh]||b[sh]) - h.clientHeight) * 100;
 }
+
 function onScroll() {
     var y = getScrollPercent();
     var container = document.getElementById("line_container");
-    console.log("--------------");
     for (var idx = 0; idx < container.children.length; idx++) {
       var tmp = y * (idx + 1);
       container.children[idx].style.height = (tmp / 4).toString() + "px";
@@ -22,4 +22,5 @@ function onScroll() {
       container.children[idx].style.transform       = 'rotate('+ tmp +'deg)';
     }
 }
+
 window.addEventListener('scroll', onScroll)
