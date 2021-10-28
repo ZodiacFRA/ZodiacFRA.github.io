@@ -42,7 +42,11 @@ h4 {
   color: #757b80;
   margin: 0px;
 }
-p { font-size: 20px; }
+p {
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 10px;
+}
 a { color: #ffffff; }
 a:hover { color: #ffffaa; }
 img { width: 100%; height: auto; }
@@ -143,6 +147,9 @@ header {
 /* ================= PROJECT LAYOUT ================= */
 .project_layout {
   display: grid;
+  margin-top: 18px;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 /* ================= LAPTOP SPECIFIC LAYOUT ================= */
@@ -150,7 +157,7 @@ header {
   .centered_title { font-size: 100px; }
   .header_icons { margin-top: 0px; }
   .article_container { grid-template-columns: 2.5fr 1.5fr 4fr; }
-  .project_layout { grid-template-columns: 2.5fr 1.5fr 4fr; }
+  .project_layout { grid-template-columns: 1fr 1fr; }
   .article_text {
     height: 180px;
 
