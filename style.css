@@ -141,13 +141,16 @@ header {
 }
 
 /* ================= PROJECT LAYOUT ================= */
-
+.project_layout {
+  display: grid;
+}
 
 /* ================= LAPTOP SPECIFIC LAYOUT ================= */
 @media only screen and (min-width: 1000px) {
   .centered_title { font-size: 100px; }
   .header_icons { margin-top: 0px; }
   .article_container { grid-template-columns: 2.5fr 1.5fr 4fr; }
+  .project_layout { grid-template-columns: 2.5fr 1.5fr 4fr; }
   .article_text {
     height: 180px;
 
