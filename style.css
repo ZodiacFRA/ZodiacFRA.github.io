@@ -47,7 +47,10 @@ p {
   margin: 0px;
   margin-top: 10px;
 }
-a { color: #ffffff; }
+a {
+  color: #ffffff;
+  text-decoration-thickness: 1px;
+}
 a:hover { color: #ffffaa; }
 img { width: 100%; height: auto; }
 
