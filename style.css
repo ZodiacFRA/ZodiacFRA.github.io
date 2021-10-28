@@ -125,7 +125,7 @@ header {
   filter: brightness(0) saturate(100%) invert(89%) sepia(31%) saturate(425%) hue-rotate(6deg) brightness(107%) contrast(103%);
 }
 
-/* ================= CONTACT TEXT ================= */
+/* ================= CONTACT ================= */
 .centered_title {
   font-size: 40px;
   height: 600px;
@@ -134,6 +134,13 @@ header {
   align-items: center;
   align-content: center;
   mix-blend-mode: difference;
+}
+
+#background {
+  background-image: url('./images/typhoon/2.4.webp');"
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-size: 100% auto; */
 }
 
 /* ================= MAIN LAYOUT ================= */
