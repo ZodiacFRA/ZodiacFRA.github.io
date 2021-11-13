@@ -1,2 +1,4 @@
 test*
 *.xcf
+__pycache__
+*_old.*

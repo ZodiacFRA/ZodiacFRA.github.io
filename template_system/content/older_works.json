@@ -1,0 +1,104 @@
+[
+    {
+        "type": "slideshow",
+        "name": "The Skull",
+        "created_with": ["Blender", "Cycles", "Quixel Mixer & Bridge"],
+        "date": "June 2021",
+        "thumbnail_images": ["skull"]
+    },
+    {
+        "type": "video",
+        "name": "Bird Skull PixelArt Test",
+        "created_with": ["Blender 2.91", "Eevee"],
+        "date": "June 2021",
+        "video_link": "https://www.youtube.com/embed/bzI4PHsz-H4?autoplay=1&mute=1&loop=1",
+        "tags": ["Video"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Planete boule",
+        "image_folder_name": "planete_boule",
+        "created_with": ["Blender", "Cycles"],
+        "date": "2017",
+        "thumbnail_images": ["1 100", "2 100"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Colosse",
+        "created_with": ["Blender", "Cycles"],
+        "date": "January 2017",
+        "thumbnail_images": ["colosse"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Stuka",
+        "created_with": ["Blender", "Cycles"],
+        "date": "December 2016",
+        "thumbnail_images": ["stuka"]
+    },
+    {
+        "type": "slideshow",
+        "name": "TriBot",
+        "created_with": ["Blender", "Cycles"],
+        "date": "2015",
+        "thumbnail_images": ["tribot"]
+    },
+    {
+        "type": "video",
+        "name": "Logo animation test",
+        "created_with": ["Blender", "Cycles"],
+        "date": "2017",
+        "video_link": "https://www.youtube.com/embed/BIAmGM0quHs?autoplay=1&mute=1&loop=1",
+        "tags": ["Video"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Death",
+        "created_with": ["Blender", "Cycles"],
+        "date": "2016",
+        "thumbnail_images": ["death"]
+    },
+    {
+        "type": "slideshow",
+        "name": "TagBot",
+        "image_folder_name": "tag_bot",
+        "created_with": ["Blender", "Cycles"],
+        "date": "2015",
+        "thumbnail_images": ["tag bot anim2 wp", "tag bot"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Fe",
+        "created_with": ["Blender", "Cycles"],
+        "date": "2015",
+        "thumbnail_images": ["fe"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Wallpp",
+        "created_with": ["Blender", "Cycles"],
+        "date": "2015",
+        "thumbnail_images": ["4K"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Ortho Bedroom",
+        "created_with": ["Blender", "Cycles"],
+        "date": "2016",
+        "thumbnail_images": ["ortho_bedroom"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Orix",
+        "created_with": ["Blender", "Internal"],
+        "date": "March 2013",
+        "thumbnail_images": ["ORIX3"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Orange Verte",
+        "created_with": ["Cinema 4D"],
+        "date": "February 2009",
+        "thumbnail_images": ["orange"]
+    }
+]

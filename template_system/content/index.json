@@ -1,0 +1,92 @@
+[
+    {
+        "type": "slideshow",
+        "name": "Tau",
+        "page_name": "tau",
+        "image_folder_name": "tau",
+        "created_with": ["Blender 3.0", "Cycles X"],
+        "date": "November 2020",
+        "subtext": "Made using Blender's sculpting mode and a Wacom tablet.",
+        "thumbnail_images": ["3.1"],
+        "tags": []
+    },
+    {
+        "type": "video",
+        "name": "Parallel Dimensions",
+        "created_with": ["Blender 3.0", "Cycles X"],
+        "date": "June 2021",
+        "subtext": "Created using the <a href=\"https://www.pny.com/promo/professional/parallel-dimensions\">Parallel Dimensions Contest</a> template files (not submitted tho).",
+        "video_link": "https://www.youtube.com/embed/4l4iJoss6ek?autoplay=1&mute=1&loop=1",
+        "tags": ["Video"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Ile des vivants / Ile des morts",
+        "page_name": "ile",
+        "image_folder_name": "iles",
+        "created_with": ["Blender 3.0", "Cycles X"],
+        "date": "October 2021",
+        "subtext": "Inspired from Arnold Böcklin <i>Isle of the Dead</i> paintings.",
+        "thumbnail_images": ["morts"],
+        "tags": []
+    },
+    {
+        "type": "slideshow",
+        "name": "Semiotic Tower",
+        "page_name": "tower",
+        "image_folder_name": "foss",
+        "created_with": ["Blender", "Cycles"],
+        "date": "May 2018",
+        "thumbnail_images": ["foss35HD4"],
+        "tags": []
+    },
+    {
+        "type": "video",
+        "name": "Gaya",
+        "created_with": ["Blender 3.0", "Cycles X"],
+        "date": "June 2021",
+        "subtext": "Presentation test for Gaya, a font made by\n<a href=\"https://www.raphaeldelamorinerie.fr/\">Raphaël de La Morinerie.</a>",
+        "video_link": "https://www.youtube.com/embed/Kx8EhvC_DKE?autoplay=1&mute=1&loop=1",
+        "tags": ["Video"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Typhoon",
+        "page_name": "typhoon",
+        "image_folder_name": "typhoon",
+        "created_with": ["Blender", "Cycles"],
+        "date": "2015 & 2021",
+        "subtext": "Loosely based on a <a href=\"https://en.wikipedia.org/wiki/Typhoon_(AFV_family)\">Kamaz Typhoon APC</a>blueprint.",
+        "thumbnail_images": ["2.3"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Tout va bien",
+        "created_with": ["Blender", "Cycles"],
+        "date": "April 2021",
+        "thumbnail_images": ["tvb"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Farm",
+        "created_with": ["Blender Cycles", "Quixel Mixer & Bridge"],
+        "date": "October 2020",
+        "thumbnail_images": ["farm"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Up / Down",
+        "page_name": "up_down",
+        "image_folder_name": "up_down",
+        "created_with": ["Blender", "Cycles"],
+        "date": "January 2017",
+        "thumbnail_images": ["2updown3"]
+    },
+    {
+        "type": "slideshow",
+        "name": "Conq",
+        "created_with": ["Blender", "Cycles"],
+        "date": "2021",
+        "thumbnail_images": ["conq"]
+    }
+]
