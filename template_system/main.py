@@ -1,10 +1,10 @@
 import json
-import glob
 from os import path
 
-from templates.misc import *
 from templates.slideshow_project_template import *
 from templates.video_project_template import *
+from templates.projects import *
+from templates.misc import *
 
 
 def create_slideshow(project_data):
@@ -49,11 +49,7 @@ def create_video(project_data):
     return res
 
 
-def create_project_page(project_data):
-    pass
-
-
-def do_page(page_name, header, footer):
+def create_presentation_page(page_name, header, footer):
     with open(f'./content/{page_name}.json', 'r') as f:
         page_projects = json.loads(f.read())
     page = header
@@ -63,13 +59,26 @@ def do_page(page_name, header, footer):
             page += create_slideshow(project_data)
         elif project_data["type"] == "video":
             page += create_video(project_data)
-        if "page_name" in project_data:
-            create_project_page(project_data)
     page += footer
     with open(f'../{page_name}.html', 'w') as f:
         f.write(page)
 
 
+def create_project_page(project_name, header, content):
+    with open(f'../projects/{project_name}.html', 'w') as f:
+        f.write(header + content)
+
+
+def get_header(tab_name, path):
+    return HEADER.format(tab_name, *([path] * 5))
+
+
 if __name__ == '__main__':
-    do_page("index", HEADER, MAIN_FOOTER)
-    do_page("older_works", HEADER, OLDER_WORKS_FOOTER)
+    create_presentation_page("index", get_header("Home", "."), MAIN_FOOTER)
+    create_presentation_page("older_works", get_header("Older Works", "."), OLDER_WORKS_FOOTER)
+
+    create_project_page("ile", get_header("Ile des morts project", ".."), ILE)
+    create_project_page("tau", get_header("Tau project", ".."), TAU)
+    create_project_page("tower", get_header("Semiotic Tower project", ".."), TOWER)
+    create_project_page("typhoon", get_header("Typhoon project", ".."), TYPHOON)
+    create_project_page("up_down", get_header("Up / Down project", ".."), UP_DOWN)
