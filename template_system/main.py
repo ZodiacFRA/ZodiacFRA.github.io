@@ -109,7 +109,7 @@ def get_header(tab_name, path):
 
 if __name__ == '__main__':
     create_presentation_page("index", get_header("Home", "."), MAIN_FOOTER)
-    create_presentation_page("older_works", get_header("Older Works", "."), MAIN_FOOTER)
+    create_presentation_page("older_works", get_header("Older Works", "."), OLDER_WORKS_FOOTER)
 
     create_project_page("ile", get_header("Ile des morts project", ".."), ILE)
     create_project_page("tau", get_header("Tau project", ".."), TAU)
