@@ -7,8 +7,7 @@
         "created_with": ["Blender 3.0", "Cycles X"],
         "date": "November 2020",
         "subtext": "Made using Blender's sculpting mode and a Wacom tablet.",
-        "thumbnail_images": ["3.1"],
-        "tags": []
+        "thumbnail_images": ["3.1"]
     },
     {
         "type": "video",
@@ -27,8 +26,7 @@
         "created_with": ["Blender 3.0", "Cycles X"],
         "date": "October 2021",
         "subtext": "Inspired from Arnold Böcklin <i>Isle of the Dead</i> paintings.",
-        "thumbnail_images": ["morts"],
-        "tags": []
+        "thumbnail_images": ["morts"]
     },
     {
         "type": "slideshow",
@@ -37,8 +35,7 @@
         "image_folder_name": "foss",
         "created_with": ["Blender", "Cycles"],
         "date": "May 2018",
-        "thumbnail_images": ["foss35HD4"],
-        "tags": []
+        "thumbnail_images": ["foss35HD4"]
     },
     {
         "type": "video",
@@ -56,7 +53,7 @@
         "image_folder_name": "typhoon",
         "created_with": ["Blender", "Cycles"],
         "date": "2015 & 2021",
-        "subtext": "Loosely based on a <a href=\"https://en.wikipedia.org/wiki/Typhoon_(AFV_family)\">Kamaz Typhoon APC</a>blueprint.",
+        "subtext": "Loosely based on a <a href=\"https://en.wikipedia.org/wiki/Typhoon_(AFV_family)\">Kamaz Typhoon APC</a> blueprint.",
         "thumbnail_images": ["2.3"]
     },
     {

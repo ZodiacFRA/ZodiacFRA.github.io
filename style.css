@@ -115,13 +115,26 @@ header {
   gap: 20px;
   display: flex;
   margin-top: 10px;
+  margin-right: 60px;
 }
 .header_icon {
   width: 56px;
   height: auto;
+  /* margin-right: 0px; */
   color: #ffffff;
 }
 .header_icon:hover {
+}
+.header_link {
+  border-top: none;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+.header_block {
+  display: flex;
+  text-decoration: none;
+}
+.header_block:hover {
   filter: brightness(0) saturate(100%) invert(89%) sepia(31%) saturate(425%) hue-rotate(6deg) brightness(107%) contrast(103%);
 }
 
@@ -138,8 +151,8 @@ header {
 
 #background {
   background-image: url('./images/typhoon/2.4.webp');"
-  background-size: contain;
-  background-repeat: no-repeat;
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
   /* background-size: 100% auto; */
 }
 
