@@ -97,7 +97,8 @@ def get_all_json_content():
 
 
 def sort_projects_by_date(projects_data):
-    """ Most recent first """
+    """ Returns all projects based on creation year (month not taken into account)
+    Most recent first """
     projects_data.sort(key=lambda x: x["date"].split(' ')[-1], reverse=True)
     return projects_data
 
@@ -116,6 +117,7 @@ if __name__ == '__main__':
     create_project_page("typhoon", get_header("Typhoon project", ".."), TYPHOON)
     create_project_page("up_down", get_header("Up / Down project", ".."), UP_DOWN)
 
-    # Watch out for regex characters !
+    # Those pages will be created with all the projects having matching tags
+    # Make sure to escape regex characters in the tags !
     create_aggregation_page("3d", get_header("3d projects", "."), ["blender", "cinema 4d"])
     create_aggregation_page("code", get_header("Code projects", "."), ["code", "python", "c\+\+"])
