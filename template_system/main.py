@@ -29,7 +29,7 @@ def create_slideshow(project_data):
         " - ".join(project_data["created_with"]),
         project_data["date"],
         project_data.get("subtext", ""),
-        project_data["name"],
+        project_data.get("page_name", ""),
         project_data.get("slideshow_speed", 3000),
         images
     )
@@ -104,7 +104,7 @@ def sort_projects_by_date(projects_data):
 
 
 def get_header(tab_name, path):
-    return HEADER.format(tab_name, *([path] * 5))
+    return HEADER.format(tab_name, *([path] * 9))
 
 
 if __name__ == '__main__':

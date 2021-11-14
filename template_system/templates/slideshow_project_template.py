@@ -16,10 +16,10 @@ SLIDESHOW_PROJECT_TEMPLATE_NO_LINK = """
         <div class="article_text">
           <h2>{}{}</h2>
           <h3>{}</h3><h3>{}</h3>
-          <p>{}</p>
+          <p>{}{}</p>
         </div><div></div>
-        <a class="slideshow_container" href="./projects/{}.html" data-cycle="{}">
-            {}</a>
+        <div class="slideshow_container" data-cycle="{}">
+            {}</div>
     </div>"""
 
 SLIDESHOW_IMAGE_TEMPLATE = """<img src="{}">\n\t\t\t\t\t\t"""

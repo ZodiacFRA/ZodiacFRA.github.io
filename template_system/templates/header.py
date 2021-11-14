@@ -20,19 +20,19 @@ HEADER = """<!doctype html>
         </div>
         <div class="header_icons">
           <a href="{}/3d.html" class="header_block">
-            <img class="header_icon" style="height: auto; width: 33px; margin-top: 9px;" src="./images/misc/layers-svgrepo-com.svg">
+            <img class="header_icon" style="height: auto; width: 33px; margin-top: 9px;" src="{}/images/misc/layers-svgrepo-com.svg">
             <h2 class="header_link">3D</h2>
           </a>
           <a href="{}/code.html" class="header_block">
-            <img class="header_icon" style="height: auto; width: 44px; margin-top: 12px;" src="./images/misc/keyboard-svgrepo-com.svg">
+            <img class="header_icon" style="height: auto; width: 44px; margin-top: 12px;" src="{}/images/misc/keyboard-svgrepo-com.svg">
             <h2 class="header_link">Code</h2>
           </a>
           <a href="https://github.com/ZodiacFRA" class="header_block">
-            <img class="header_icon" style="height: auto; width: 36px; margin-top: 10px;" src="./images/misc/github-svgrepo-com.svg">
+            <img class="header_icon" style="height: auto; width: 36px; margin-top: 10px;" src="{}/images/misc/github-svgrepo-com.svg">
             <h2 class="header_link">Github</h2>
           </a>
           <a href="{}/contact.html" class="header_block">
-            <img class="header_icon" style="height: auto; width: 40px; margin-top: 12px;" src="./images/misc/email-svgrepo-com.svg">
+            <img class="header_icon" style="height: auto; width: 40px; margin-top: 12px;" src="{}/images/misc/email-svgrepo-com.svg">
             <h2 class="header_link">Contact</h2>
           </a>
 
