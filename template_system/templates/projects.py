@@ -58,3 +58,21 @@ UP_DOWN = """    <h2>Up / Down</h2><h3>Blender - Cycles</h3><h3>January 2017</h3
         <img src="../images/up_down/updownfunkg2ss.webp">
     </div>
 </body>"""
+
+ARM = """    <h2>Arm Rig</h2><h3>Blender 3.0 - Cycles X</h3><h3>November 2021</h3>
+    <p>Created a rig with IK features for an arm model I found online. First time really delving into Blender pose system</p>
+    <div class="project_layout">
+        <img src="../images/arm/untitled20.webp">
+        <img src="../images/arm/untitled21.webp">
+        <img src="../images/arm/untitled7.webp">
+        <img src="../images/arm/untitled23.webp">
+        <img style="grid-column: 1/3;" src="../images/arm/alphabet.webp">
+        <img src="../images/arm/untitled10.webp">
+        <img src="../images/arm/untitled9.webp">
+        <img src="../images/arm/untitled11.webp">
+        <img src="../images/arm/untitled15.webp">
+        <img src="../images/arm/untitled18.webp">
+        <img src="../images/arm/untitled.webp">
+        <img src="../images/arm/untitled5.webp">
+    </div>
+</body>"""

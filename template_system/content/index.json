@@ -10,6 +10,16 @@
         "thumbnail_images": ["3.1"]
     },
     {
+        "type": "slideshow",
+        "name": "Arm Rig",
+        "page_name": "arm",
+        "image_folder_name": "arm",
+        "created_with": ["Blender 3.0", "Cycles X"],
+        "date": "November 2020",
+        "subtext": "Created a rig with IK features for an arm model I found online",
+        "thumbnail_images": ["untitled23"]
+    },
+    {
         "type": "video",
         "name": "Parallel Dimensions",
         "created_with": ["Blender 3.0", "Cycles X"],
