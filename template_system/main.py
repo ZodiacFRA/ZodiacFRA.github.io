@@ -8,6 +8,7 @@ from templates.video_project_template import *
 from templates.projects import *
 from templates.footer import *
 from templates.header import *
+from templates.misc import *
 
 
 def create_slideshow(project_data):
@@ -76,7 +77,7 @@ def create_project_page(project_name, header, content):
         f.write(header + content)
 
 
-def create_aggregation_page(page_name, header, tags):
+def create_aggregation_page(page_name, header, tags, subheader=""):
     projects = sort_projects_by_date(get_all_json_content())
     page_projects = []
     for project_data in projects:
@@ -85,7 +86,7 @@ def create_aggregation_page(page_name, header, tags):
             if re.search(tag, project_tags, re.IGNORECASE):
                 page_projects.append(project_data)
     with open(f'../{page_name}.html', 'w') as f:
-        f.write(populate_page(page_projects, header, ""))
+        f.write(populate_page(page_projects, header + subheader, ""))
 
 
 def get_all_json_content():
@@ -121,4 +122,4 @@ if __name__ == '__main__':
     # Those pages will be created with all the projects having matching tags
     # Make sure to escape regex characters in the tags !
     create_aggregation_page("3d", get_header("3d projects", "."), ["blender", "cinema 4d"])
-    create_aggregation_page("code", get_header("Code projects", "."), ["code", "python", "c\+\+"])
+    create_aggregation_page("code", get_header("Code projects", "."), ["code", "python", "c\+\+"], CODE.format("."))
