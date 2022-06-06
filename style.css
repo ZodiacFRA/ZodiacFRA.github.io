@@ -1,11 +1,11 @@
 /* ================= TEXT ================= */
 @font-face {
   font-family: 'Roboto-Light';
-  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Roboto-Light.ttf') format("truetype");
+  src: url('https://zodiacfra.github.io/fonts/Roboto-Light.ttf') format("truetype");
 }
 @font-face {
   font-family: 'Format_1452';
-  src: url('https://zodiacfra.github.io/ZodiacFRA/fonts/Format_1452.otf') format("opentype");
+  src: url('https://zodiacfra.github.io/fonts/Format_1452.otf') format("opentype");
 }
 * {
   box-sizing: border-box;
