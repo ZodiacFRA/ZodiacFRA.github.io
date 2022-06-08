@@ -1,0 +1,92 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Zodiac - 2D Wave Function Collapse</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Zødiac">
+    <meta name="description" content="Personal website">
+    <meta name="keywords" content="Blender, DIY, Zodiac, ZodiacFRA, AI, Programmation">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔳</text></svg>">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <div style="margin-right: 100px;">
+            <h1><a href='../index.html'>Zødiac</a></h1>
+            <h3 style='margin-top: -16px'>Code & 3d Art</h3>
+        </div>
+        <div class="header_icons">
+          <a href="../3d.html" class="header_block">
+            <img class="header_icon" style="height: auto; width: 33px; margin-top: 9px;" src="../media/misc/layers-svgrepo-com.svg">
+            <h2 class="header_link">3D</h2>
+          </a>
+          <a href="../code.html" class="header_block">
+            <img class="header_icon" style="height: auto; width: 44px; margin-top: 12px;" src="../media/misc/keyboard-svgrepo-com.svg">
+            <h2 class="header_link">Code</h2>
+          </a>
+          <a href="../contact.html" class="header_block">
+            <img class="header_icon" style="height: auto; width: 40px; margin-top: 12px;" src="../media/misc/email-svgrepo-com.svg">
+            <h2 class="header_link">Contact</h2>
+          </a>
+
+        </div>
+    </header>
+<!--------------------------------------------------------------------------- HEADER END -->
+
+<h2>2D Wave Function Collapse</h2><h3>Python - PyGame</h3><h3>April 2022</h3>
+    <p></p>
+<p>
+    We Made with <a href='https://github.com/Seb-lg'>Seb-lg</a> a simple 2D python implementation of the well known
+    <a href='https://github.com/mxgmn/WaveFunctionCollapse'>Wave Function Collapse</a> (WFC) algorithm using PyGame
+    <br>
+    Source code available <a href='https://github.com/Seb-lg/WaveFunctionCollapse'>here</a>,
+    and I also made a <a href='./3d_wave_function_collapse.html'>3D version of it</a>
+</p>
+
+<div class='project_layout' style='align-items: center;'>
+    <div class='sticky_comment'>
+
+    </div>
+</div>
+
+<div class='project_layout' style='align-items: center;'>
+    <div class='sticky_comment' style="align-self: start">
+        <p>Here are the final 89 modules obtained by adding the rotations from the 30 modules I drew</p><br>
+        <img src='../media/2D_wfc/modules.webp'>
+        <p>I also implemented different ways of choosing the state of the cell collapsing:<br><br>
+        0) Random: randomly select a state from the possible states list</p>
+    </div>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/2D_wfc/2D_WFC_random.mp4' type='video/mp4'>
+    </video>
+</div>
+<div class='project_layout' style='align-items: center;'>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/2D_wfc/2D_WFC_override_2.mp4' type='video/mp4'>
+    </video>
+    <div class='sticky_comment'>
+        <p>1) Override: if we can set the same state as the previous collapse, do it!</p>
+        <h4>I added a max_consecutive_collapses stop to prevent the algorithm from overdoing it</h4>
+    </div>
+</div>
+<div class='project_layout' style='align-items: center;'>
+    <div class='sticky_comment'>
+        <p>2) Lowest: select the state which is the least seen amongst all collapsed cells</p>
+    </div>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/2D_wfc/2D_WFC_lowest.mp4' type='video/mp4'>
+    </video>
+</div>
+<div class='project_layout' style='align-items: center;'>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/2D_wfc/2D_WFC_all.mp4' type='video/mp4'>
+    </video>
+    <div class='sticky_comment'>
+        <p>3) Meta-random: Choose one of those modes at random each time</p>
+    </div>
+</div>
+</body>

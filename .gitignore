@@ -1,0 +1,6 @@
+*test*
+*.xcf
+__pycache__
+*_old.*
+.gitignore
+template_system_old

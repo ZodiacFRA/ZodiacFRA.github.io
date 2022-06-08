@@ -1,0 +1,117 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Zodiac - StyleGANs Experiments</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Zødiac">
+    <meta name="description" content="Personal website">
+    <meta name="keywords" content="Blender, DIY, Zodiac, ZodiacFRA, AI, Programmation">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔳</text></svg>">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header>
+        <div style="margin-right: 100px;">
+            <h1><a href='../index.html'>Zødiac</a></h1>
+            <h3 style='margin-top: -16px'>Code & 3d Art</h3>
+        </div>
+        <div class="header_icons">
+          <a href="../3d.html" class="header_block">
+            <img class="header_icon" style="height: auto; width: 33px; margin-top: 9px;" src="../media/misc/layers-svgrepo-com.svg">
+            <h2 class="header_link">3D</h2>
+          </a>
+          <a href="../code.html" class="header_block">
+            <img class="header_icon" style="height: auto; width: 44px; margin-top: 12px;" src="../media/misc/keyboard-svgrepo-com.svg">
+            <h2 class="header_link">Code</h2>
+          </a>
+          <a href="../contact.html" class="header_block">
+            <img class="header_icon" style="height: auto; width: 40px; margin-top: 12px;" src="../media/misc/email-svgrepo-com.svg">
+            <h2 class="header_link">Contact</h2>
+          </a>
+
+        </div>
+    </header>
+<!--------------------------------------------------------------------------- HEADER END -->
+
+<h2>StyleGANs Experiments</h2><h3>Python - Pytorch - StyleGAN 2</h3><h3>November 2021</h3>
+    <p></p>
+<p>
+    I started from the paper <i>Audio-reactive Latent Interpolations with StyleGAN</i> from Hans Brouwer
+    and some pretrained models:
+</p>
+<ul>
+    <li><a href='https://krrrl.blogspot.com/2020/08/runway-ml-3rd-model-based-on-long-poses.html'>Drawn characters</a></li>
+    <li><a href='https://github.com/NVlabs/stylegan2'>Faces (FFHQ)</a></li>
+    <li><a href='https://www.youtube.com/watch?v=IxjlJ0FEz2o'>Floor plans</a></li>
+    <li><a href='https://nitter.net/dvsch/status/1255885874560225284?s=20'>Abstract art</a></li>
+</ul>
+<p>The latent movements are based on:</p>
+<ul>
+    <li>The audio input you can hear (make sure to unmute the videos)</li>
+    <li>A looped slerp interpolation, which is added on top of it to ensure a variety of latent space positions</li>
+</ul>
+<p>I then started non scientific experiments by swapping hidden layers between the pretrained models to see how it would affect the result
+based on the depth of the layer swapped, and the number of layers swapped.
+<br>
+Here are some cool results:
+</p>
+<div class='project_layout'>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/stylegans/netw_blending_car_stylegan2-ffhq-FRAN.mp4' type='video/mp4'>
+    </video>
+    <div class='sticky_comment'>
+        <p>
+        In the 1st video I swapped half of the layers and you can clearly see that:
+        </p>
+        <ul>
+            <li>The <i>FFHQ</i> model dictates the high level features of the images (mostly shapes)</li>
+            <li>The <i>Abstract art</i> model is mostly responsible of the textures used</li>
+        </ul>
+        <p>
+            In the 2nd and 3rd videos I swapped only one layer, but changed the depth of the swapped layer. which results in:
+        </p>
+        <ul>
+            <li>2nd one: the <i>Floor plans</i> model dictates many high level features, and <i>FFHQ</i> makes most of the textures</li>
+            <li>3rd one: the opposite</li>
+        </ul>
+    </div>
+</div>
+
+<div class='project_layout'>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/stylegans/car_stylegan2-ffhq-config-f_3a06ad40.mp4' type='video/mp4'>
+    </video>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/stylegans/car_stylegan2-ffhq-config-f_55beb600.mp4' type='video/mp4'>
+    </video>
+</div>
+
+<div class='project_layout'>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/stylegans/1.mp4' type='video/mp4'>
+    </video>
+    <div class='sticky_comment'>
+    <p>
+        For the following videos I'm using the <i>Floor plans</i> and <i>Abstract art</i> models.<br><br>
+        In the 1st one the effect of the sound on the latent movements is extreme,
+        causing it to go out of distribution (out of the domain learnt via the training data) which results in a nice abstract piece
+    </p>
+    </div>
+</div>
+
+<div class='project_layout'>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/stylegans/rosa_rudeboy_network-snapshot-010162_a780f7c4.mp4' type='video/mp4'>
+    </video>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/stylegans/16_spline_loops_river.mp4' type='video/mp4'>
+    </video>
+    <video class='project_video' controls muted autoplay loop>
+        <source src='../media/stylegans/rudeboy_network-snapshot-010162_70e06ad5.mp4' type='video/mp4'>
+    </video>
+</div>
+</body>
