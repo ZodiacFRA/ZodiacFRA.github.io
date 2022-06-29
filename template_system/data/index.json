@@ -21,6 +21,15 @@
     },
     {
         "type": "slideshow",
+        "name": "Vanité",
+        "image_folder_name": "vanite",
+        "created_with": ["Blender 3.2", "Cycles X"],
+        "date": "June 2022",
+        "subtext": "",
+        "thumbnail_images": ["untitled4"]
+    },
+    {
+        "type": "slideshow",
         "name": "Lakehouse",
         "image_folder_name": "lakehouse",
         "created_with": ["Blender 3.0", "Cycles X"],
