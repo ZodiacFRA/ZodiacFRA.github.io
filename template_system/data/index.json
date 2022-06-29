@@ -25,8 +25,8 @@
         "image_folder_name": "vanite",
         "created_with": ["Blender 3.2", "Cycles X"],
         "date": "June 2022",
-        "subtext": "",
-        "thumbnail_images": ["untitled4"]
+        "thumbnail_images": ["untitled4"],
+        "create_project_page": ""
     },
     {
         "type": "slideshow",
